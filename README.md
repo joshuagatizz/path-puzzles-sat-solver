@@ -43,18 +43,16 @@ The output format of the solver is as follows:
 
  - The given input has a solution:
  ```
-solution found!
-
 p_{1,1} p_{1,2} ... p{1,n}
 p_{2,1} p_{2,2} ... p{2,n}
 ...
 p_{m,1} p_{m,2} ... p{m,n}
-
-time taken: {running time}ms.
+Time taken: {running time} ms
  ```
  - The given input has no solution:
   ```
-solution not found.
+No solution
+Time taken: {running time} ms
  ```
 
 where `p_{i,j}` is a character representing cell $(i,j)$ of the puzzle, where the value is either `.`, `d`,`l`,`r`, or `u`. `.` represents an empty cell while `d`,`l`,`r`, and `u` correspond to $down, left, right,$ and $up$---direction of the path passing the cell. For example if the path pass through cell $(i,j)$ and then cell  $(i+1,j)$, then `p_{i,j} = d`.  Note that the second door cell $(i_b,j_b)$ is always filled with `u`.
@@ -72,7 +70,7 @@ where `p_{i,j}` is a character representing cell $(i,j)$ of the puzzle, where th
 d . .
 r r d
 . . u
-time taken: 1ms.
+Time taken: 1 ms
  ```
 ## Usage
 
