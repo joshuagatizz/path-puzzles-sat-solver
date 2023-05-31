@@ -10,7 +10,7 @@ The `tc` directory contains a set of test cases in plain text. The directory con
 
 The cases are taken from [font-pathpuzzles](https://github.com/edemaine/font-pathpuzzles) repository by Erik Demaine.
 There are 26 cases in each subdirectory where each case has only one solution, grid size of $6 \times 6$, and corresponds to a letter in the standard English alphabets.
-In addition, we also added 5 additional cases with bigger grid sizes for further exploration. Note that these additional cases have more than one solution and the provided expected output file is just one of them
+In addition, we also added 5 additional cases with bigger grid sizes for further exploration. It's important to note that these additional cases may have multiple solutions, and the provided expected output file represents just one possible solution.
 
 The cases from [font-pathpuzzles](https://github.com/edemaine/font-pathpuzzles) are named according to their correspoding letter (for example, `a.in` for letter a), while the additional cases are named based on their grid sizes (`7x7.in` for $7 \times 7$ grid).
 
@@ -57,7 +57,7 @@ time taken: {running time}ms.
 solution not found.
  ```
 
-where `p_{i,j}` is a character representing cell $(i,j)$ of the puzzle, where the value is either `'.'`, `d`,`l`,`r`, or `u`. `'.'` represents an empty cell while `d`,`l`,`r`, and `u` correspond to $down, left, right,$ and $up$---direction of the path passing the cell. For example if the path pass through cell $(i,j)$ and then cell  $(i+1,j)$, then `p_{i,j} = d`.  Note that the second door cell $(i_b,j_b)$ is always filled with `u`.
+where `p_{i,j}` is a character representing cell $(i,j)$ of the puzzle, where the value is either `.`, `d`,`l`,`r`, or `u`. `.` represents an empty cell while `d`,`l`,`r`, and `u` correspond to $down, left, right,$ and $up$---direction of the path passing the cell. For example if the path pass through cell $(i,j)$ and then cell  $(i+1,j)$, then `p_{i,j} = d`.  Note that the second door cell $(i_b,j_b)$ is always filled with `u`.
 
 ### Example
 ```
