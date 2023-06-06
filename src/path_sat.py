@@ -114,7 +114,6 @@ for path_len in range(lb, ub + 1):
     end_time = time.time()
     solution = solver.get_model()
     def var_is_true(x):
-      # intinya buat cek apakah +x ada di solution atau engga. pakai linear search kelamaan
       l, r = 0, len(solution) - 1
       while l <= r:
         mid = (l+r)//2
