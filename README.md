@@ -12,9 +12,9 @@ The `tc` directory contains a set of test cases in plain text. The directory con
 
 The cases are taken from [font-pathpuzzles](https://github.com/edemaine/font-pathpuzzles) repository by Erik Demaine.
 There are $26$ instances in each subdirectory with only one solution. Each grid is of size $6 \times 6$ and corresponds to a letter in the standard English alphabet.
-In addition, we also added five additional cases with bigger grid sizes for further exploration. It's important to note that these additional cases may have multiple solutions, and the provided expected output file represents just one possible solution.
+In addition, we also added $40$ additional cases with bigger grid sizes for further exploration. It's important to note that some of these additional cases may have multiple solutions, and the provided expected output file represents just one possible solution.
 
-The cases from [font-pathpuzzles](https://github.com/edemaine/font-pathpuzzles) are named according to their corresponding letter (for example, `a.in` for letter a), while the additional cases are named based on their grid sizes (`7x7.in` for $7 \times 7$ grid).
+The cases from [font-pathpuzzles](https://github.com/edemaine/font-pathpuzzles) are named according to their corresponding letter (for example, `a.in` for letter a), while the additional cases are named based on their grid sizes (`7x7_1.in` to `7x7_10.in` for $7 \times 7$ grid).
 
 ## Solver
 
