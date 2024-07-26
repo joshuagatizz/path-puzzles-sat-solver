@@ -4,7 +4,9 @@
 
 For more information about the puzzle, see [https://www.enigami.fun](https://www.enigami.fun/_files/ugd/e33b96_3c76845fa9dd413a9f1606ce1c040b99.pdf) or the [original book](https://books.google.co.id/books/about/Path_Puzzles.html?id=tDhaswEACAAJ&redir_esc=y) by Roderick Kimball.
 
-This repository is related to our work submitted to ICoMPAC 2023, see [https://icompac.its.ac.id](https://icompac.its.ac.id).
+This repository contains the source code related to our paper submitted to [ICoMPAC 2023](https://icompac.its.ac.id). The proceedings, including our paper, have been published by [Springer](https://link.springer.com/chapter/10.1007/978-981-97-2136-8_17).
+
+We have also created a web application called [Path Puzzles Interactive Park](https://joshuagatizz.pythonanywhere.com/) to help users visualize and explore the properties of Path puzzles. The source code for the application is available in the [path-puzzles-interactive-park](https://github.com/joshuagatizz/path-puzzles-interactive-park) repository.
 
 ## Test Cases
 
